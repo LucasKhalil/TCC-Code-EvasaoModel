@@ -1,0 +1,12 @@
+,componente,total_params,out_dim
+0,AttentionPooling: Disciplinas,1152.0,32.0
+1,AttentionPooling: Semestres,1152.0,32.0
+2,FeatureEncoder: Disciplinas,15994.0,87.0
+3,FeatureEncoder: Estudantes,1844.0,56.0
+4,FeatureEncoder: Institucional,52.0,29.0
+5,OutputBlock,1153.0,
+6,RecencyEncoding,64.0,
+7,RegularBlock: Disciplinas,2880.0,32.0
+8,RegularBlock: Estudantes,1888.0,32.0
+9,RegularBlock: Institucional,1024.0,32.0
+10,RegularBlock: Semestre,3168.0,32.0

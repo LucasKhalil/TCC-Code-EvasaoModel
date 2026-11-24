@@ -1,0 +1,141 @@
+{
+    "codigo_curso": "108095",
+    "data_treino": "2026-11-23T11:36:25",
+    "parametros": {
+        "codigo_curso": "108095",
+        "epochs": 50,
+        "batch_size": 64,
+        "lr": 0.001,
+        "weight_decay": 0.0001,
+        "patience": 7,
+        "grad_clip": 1.0,
+        "dim": 32,
+        "dropout": 0.3,
+        "threshold": 0.5,
+        "criterio_parada": "auc",
+        "calibracao": "platt",
+        "warm_start": false,
+        "usar_pos_weight": true,
+        "usar_wandb": true,
+        "periodos": null
+    },
+    "resultados": {
+        "1": {
+            "treinado": true,
+            "val_auc": 0.8950062111801242,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1286,
+                "evadido": 1495
+            },
+            "validacao": {
+                "egresso": 322,
+                "evadido": 375
+            }
+        },
+        "2": {
+            "treinado": true,
+            "val_auc": 0.8845400165016504,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1278,
+                "evadido": 1192
+            },
+            "validacao": {
+                "egresso": 320,
+                "evadido": 303
+            }
+        },
+        "3": {
+            "treinado": true,
+            "val_auc": 0.9095952332032053,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1259,
+                "evadido": 998
+            },
+            "validacao": {
+                "egresso": 314,
+                "evadido": 248
+            }
+        },
+        "4": {
+            "treinado": true,
+            "val_auc": 0.9258829749134506,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1237,
+                "evadido": 775
+            },
+            "validacao": {
+                "egresso": 307,
+                "evadido": 191
+            }
+        },
+        "5": {
+            "treinado": true,
+            "val_auc": 0.9466289486091466,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1222,
+                "evadido": 559
+            },
+            "validacao": {
+                "egresso": 303,
+                "evadido": 140
+            }
+        },
+        "6": {
+            "treinado": true,
+            "val_auc": 0.9411958914159941,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1200,
+                "evadido": 386
+            },
+            "validacao": {
+                "egresso": 290,
+                "evadido": 94
+            }
+        },
+        "7": {
+            "treinado": true,
+            "val_auc": 0.9657450076804915,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1163,
+                "evadido": 289
+            },
+            "validacao": {
+                "egresso": 279,
+                "evadido": 70
+            }
+        },
+        "8": {
+            "treinado": true,
+            "val_auc": 0.969247311827957,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1130,
+                "evadido": 228
+            },
+            "validacao": {
+                "egresso": 279,
+                "evadido": 50
+            }
+        },
+        "9": {
+            "treinado": true,
+            "val_auc": 0.9809036836063862,
+            "calibracao": "platt",
+            "treino": {
+                "egresso": 1031,
+                "evadido": 185
+            },
+            "validacao": {
+                "egresso": 259,
+                "evadido": 37
+            }
+        }
+    }
+}
